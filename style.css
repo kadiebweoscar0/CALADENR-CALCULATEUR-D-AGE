@@ -34,3 +34,10 @@ ul li{
 label{
     margin-top: 20px;
 }
+
+form{
+    display: flex;
+    justify-content:center ;
+    background-color: #fff;
+    display: flex;
+}
