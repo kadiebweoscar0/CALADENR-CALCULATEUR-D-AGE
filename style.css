@@ -43,15 +43,15 @@ p{
 form{
     display: flex;
     font-size: 1.5rem;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     background-color: #e40e0e;
-    align-items: baseline;
     flex-direction: column;
 }
 
 form input{
+    font-size: 1.5rem;
     width: 40%;
-    margin: 0 auto;
+    margin-left: 5%;
     padding: 1rem 1rem;
     border-radius: 10px;
     border-style: none;
@@ -61,7 +61,8 @@ form input{
 form button{
     width: 40%;
     padding: 1rem 2rem;
-    border-radius: 6px;
+    border-radius: 10px;
     border-style: none;
-    margin-left: 30%;
+    margin-left: 5%;
+    font-size: 1.5rem;
 }
