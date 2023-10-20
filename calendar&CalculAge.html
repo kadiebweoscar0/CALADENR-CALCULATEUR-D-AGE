@@ -16,30 +16,28 @@
                 *input pour l'année de nessance de l'utilisateur
                 *un boutton pour lancer l'operation de calcul d'âge
      -->
-     <h1>CALENDRIER ET CALCULATEUR D'ÂGE</h1>
+     <h1>BIENVENUE DANS VOTRE CALENDRIER ET CALCULATEUR D'ÂGE</h1>
 
      <div>
-        <ul>
-            <label >HEURE</label>
-            <li>heure</li>
-            <li>munite</li>
-            <li>seconde</li>
+        <ul id="Horloge">
+            <p >HEURE</p>
+            <li id="heure">heure<br></li>
+            <li id="minute">minute<br></li>
+            <li id="seconde">seconde<br></li>
         </ul>
-
-        <ul>
-            <label >DATE</label>
-            <li>jour</li>
-            <li>mois</li>
-            <li>année</li>
+        <ul id="calendrier">
+            <p>DATE</p>
+            <li id="jour">jour</li>
+            <li id="mois">mois</li>
+            <li id="année">année</li>
         </ul>
      </div>
-
      <form action="">
         <input type="text" placeholder="entrez votre nom">
         <input type="date" placeholder="entrez votre date de naissance">
         <button type="submit">calculer</button>
      </form>
 
-
+<script src="calendar&CalculAge.js"></script>
 </body>
 </html>
